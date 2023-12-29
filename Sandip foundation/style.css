@@ -3,14 +3,16 @@
     padding:0;
     font-family: sans-serif;
 }
+body{
+    position:inherit;
+}
 .header{
     position: fixed;
+    z-index: 1;
+    width   : 100vw;
 }
 li{
     list-style: none;
-}
-nav{
-    width: 100vw;
 }
 .nav-bar-1{
     background-color: gray;
@@ -66,19 +68,20 @@ nav{
 header > img{
     height: 100px;
     position: absolute;
-    margin-left:94vw;
+    margin-left:90vw;
     margin-top: 10px;
 
 }
-.college-pic{
-    background-color: black;
-}
+
 .college-pic img{
     width: 100vw;
     height: 650px;
 }
 .latest-updates{
     background-color: black;
+    position: absolute;
+    z-index: -1;
+    top: 649px;
     height: 43px;
     width: 100vw;
 }
@@ -94,9 +97,13 @@ header > img{
 .course{
     background-color: #FF9A00;
     height:250px;
+    position: relative;
+    box-shadow: -1px 4px 16px 0 rgba(151,136,136,.68);
+    top: 38px;
     padding-left: 270px;
     padding-top: 30px;
 }
+
 .course ul{
     display: flex;
     margin-left: 30px;
@@ -108,4 +115,81 @@ header > img{
     margin-right:60px ;
     font-family: 'Hammersmith One',sans-serif;
     font-size: 20px;
+}
+.icon{
+    position: absolute;
+    z-index: 1;
+    top: 400px;
+}
+.icon ul{
+    position: fixed;
+}
+.icon ul li img{
+    height: 40px;
+}
+.info .info-page{
+    display: flex;
+    margin: 0 350px;
+    height: 300px;
+}
+.info{
+    height: 350px;
+    padding-top: 130px;
+    background-color: bisque;
+}
+.info-page .details .subject{
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+.info-page .details p{
+    font-size: 15px;
+    line-height: 20px;
+    width: 600px;
+    text-align: justify;
+}
+.info .info-page figure{
+    margin-left: 100px;
+}
+.twopart{
+    width: 100vw;
+    height: 500px;
+    display: flex;
+}
+.text{
+    width: 50vw;
+    height: 400pxpx;
+}
+.twopart figure{
+    margin-left: 50px;
+    width: 10vw;
+}
+.twopart .part{
+    margin-top: 80px;
+    margin-left: 400px  ;
+}
+.twopart .part .heading{
+    font-size: 20px;
+}
+.twopart .part p{
+    margin-top: 20px;
+    margin-right: 10px;
+    text-align: justify;
+    line-height: 20px;
+}
+.twopart .part .button{
+    margin-top: 30px;
+}
+.twopart .part .button button{
+    padding: 15px 5px;
+    background-color: brown;
+    border: none;
+    color: white;
+}
+.twopart .part .button button:hover{
+    background-color: #AAA;
+}
+footer{
+    text-align: center; 
+    padding-top: 20px;
+    background-color: #FF9A00;
 }
