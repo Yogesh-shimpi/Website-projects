@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+.header{
+    position: fixed;
+}
+li{
+    list-style: none;
+}
+nav{
+    width: 100vw;
+}
+.nav-bar-1{
+    background-color: gray;
+    height: 43px;
+    border-bottom: 4px solid orange;
+}
+.nav-bar-1 ul{
+    display: flex;
+    justify-content: center;
+    padding-top: 11px;
+}
+.nav-bar-1 ul li{
+    list-style:none;
+    border-right: 2px solid #AAA;
+}
+.nav-bar-1 ul li button{
+    background-color: transparent;
+    border: none;
+    font-family: 'Merriweather', serif;
+    margin: 0 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.nav-bar-1 ul li button:hover{
+    color: orange;
+}
+.nav-bar-2{
+    display: flex;
+    height: 90px;
+    background-color: white;
+}
+.nav-bar-2 ul{
+    display: flex;
+}
+.nav-bar-2 img{
+    margin: 20px 60px 20px 360px;
+}
+.nav-bar-2 ul li{
+    list-style: none;
+    padding: 40px 10px;
+}
+.nav-bar-2 ul li button{
+    background-color: transparent;
+    border: transparent ;
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+}
+.nav-bar-2 ul li .enquiry{
+    color: red;
+    background-color: black;
+    padding: 5px 0;
+}
+header > img{
+    height: 100px;
+    position: absolute;
+    margin-left:94vw;
+    margin-top: 10px;
+
+}
+.college-pic{
+    background-color: black;
+}
+.college-pic img{
+    width: 100vw;
+    height: 650px;
+}
+.latest-updates{
+    background-color: black;
+    height: 43px;
+    width: 100vw;
+}
+.latest-updates .latest-updates-icon{
+    height: 33px;
+    margin-left: 15px;
+    width: 150px;
+    font-size: 20px;
+    padding-top:10px;
+    text-align: center;
+    background-color: orangered;
+}
+.course{
+    background-color: #FF9A00;
+    height:250px;
+    padding-left: 270px;
+    padding-top: 30px;
+}
+.course ul{
+    display: flex;
+    margin-left: 30px;
+}
+.course .image img{
+    margin-right: 45px;
+}
+.course ul li{
+    margin-right:60px ;
+    font-family: 'Hammersmith One',sans-serif;
+    font-size: 20px;
+}
