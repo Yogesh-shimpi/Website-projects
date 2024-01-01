@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+:root{
+    --Blue: #00b6d1;
+    --Green: #5cb85c;
+    --white: #f9f9f9;
+}
+header{
+    display: flex;
+    padding: 20px 345px ;
+    justify-content: space-between;
+}
+header .img img{
+    width: 175px;
+}
+header nav{
+    margin: auto 0;
+}
+header nav ul{
+    display: flex;
+    
+}
+header nav ul li{
+    font-family: 'Poppins';
+    list-style: none;
+    margin-left: 40px;
+    font-size: 15px;
+    color: rgba(109, 98, 98, 0.966);
+}
+.main-content{
+    height: 1280px;
+    margin: 0 450px;
+}
+.main-content .download{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 60px 0 ;
+}
+.main-content .download .A{
+    font-size: 45px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.main-content .download .A span{
+    font-weight: bold;
+}
+.main-content .download .B{
+    font-size: 21px;
+    width: 930px;
+    margin-bottom: 30px;
+}
+.main-content .download button{
+    color: white;
+    background-color: var(--Blue);
+    padding: 15px;
+    width: 310px;
+    border: none;
+    font-size: 13px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.lan-download .version  {
+    height: 60px;
+    display: flex;
+    justify-content: left;
+}
+.lan-download .version img{
+    height: 60px;
+}
+.lan-download .version .name{
+    align-self: center;
+    font-size: 21px;
+    padding-left: 18px;
+    font-weight: 100;
+}
+.lan-download .version .version-name{
+    margin-top:20px;
+    font-size: 15px;
+}
+.download-section {
+    margin: 40px 0;
+    display: grid;
+    gap: 30px;
+    grid-template-columns:300px 300px 300px;
+}
+.download-section .box{
+    background-color: var(--white);
+    height: 135px;
+    padding: 15px 0;
+    text-align: center;
+}
+.download-section .box .lang-name{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 6px;
+}
+.download-section .box .country-name{
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+.download-section .box .bit32{
+    font-size: 11px;
+    color: white;
+    font-weight: 900;
+    background-color: var(--Blue);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 5px;
+}
+.download-section .box .bit64{
+    font-size: 11px;
+    color: white;
+    font-weight: 900;
+    background-color: var(--Green);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.middle-content{
+    background-color: #222222;
+    height: 765px;
+    padding: 80px 25vw;
+    box-sizing: border-box;
+
+}
+.middle-content .subscription{
+    height:320px ;
+    color: white;
+    display: flex;
+}
+.subscription .X {
+    margin-top: 120px;
+    width: 420px;
+    text-align: center;
+}
+.subscription .email{
+    height: 200px;
+    width: 310px;
+    background-color: white;
+    margin-left: 150px;
+    border-radius: 15px;
+    padding: 35px 30px;
+    text-align: center;
+}
+.subscription .email .A{
+    color: var(--Blue);
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+.subscription .email div{
+    color: black;
+    font-size: 12px
+}
+.subscription .email input{
+    width: 270px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.subscription .email button{
+    width: 270px;
+    height: 50px;
+    color: white;
+    background-color: var(--Blue);
+    border: none;
+    border-radius: 5px;
+}
+.details{
+    color: white;
+    margin-top:70px ;
+}
+.details .h{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.details p{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.middle-content span{
+    color: var(--Blue);
+}
+footer{
+    height: 650px;
+    padding: 80px 25vw 50px 25vw;
+}
+.r1{
+    font-size: 16px;
+}
+footer div {
+    display: flex;
+}
+.coulumn1{ 
+    display: flex;
+    flex-direction:column ;
+}
+.coulumn1 button{
+    width: 230px;
+    height: 25px;
+    font-size: 12;
+    text-align: left;
+    background: transparent;
+    border: none;
+}
+.coulumn1 .r1{
+    height: 50px ;
+    font-weight: bold;
+}
+.coulumn2{ 
+    display: flex;
+    flex-direction:column ;
+}
+.coulumn2 button{
+    width: 230px;
+    height: 25px;
+    text-align: left;
+    background: transparent;
+    font-size: 12;
+    border: none;
+}
+.coulumn2 .r1{
+    height: 50px ;
+    font-weight: bold;
+}
+.coulumn3{ 
+    display: flex;
+    flex-direction:column ;
+}
+.coulumn3 button{
+    width: 230px;
+    height: 25px;
+    text-align: left;
+    background: transparent;
+    font-size: 12;
+    border: none;
+}
+.coulumn3 .r1{
+    height: 50px ;
+    font-weight: bold;
+}
+.coulumn4{ 
+    display: flex;
+    flex-direction:column ;
+}
+.coulumn4 button{
+    width: 230px;
+    height: 25px;
+    text-align: left;
+    background: transparent;
+    font-size: 10;
+    border: none;
+}
+.coulumn4 .r1{
+    height: 50px ;
+    font-weight: bold;
+}
+.coulumn4 input{
+    padding: 9px;
+    border-radius: 5px  ;
+    border: 1px solid #AAA;
+    margin-bottom: 10px;
+}
+.coulumn4 .button{
+    border-radius: 5px;
+    padding: 9px;
+    background-color: var(--Blue);
+    height: 40px;
+}
